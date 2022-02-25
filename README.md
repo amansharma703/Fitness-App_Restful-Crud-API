@@ -15,3 +15,5 @@
 - GET /users/:id  - gets data for a particular user with Id
 - PUT /users/:id  - updates a particular user ( receives name, email, mobileNumber, weight and height in req.body, and calculates the BMI of the user before saving the details to the database )
 - DELETE /users/:id - deletes the user from the database.
+
+> Note : Considering given height and weight of users is in meter and kilogram respectively.
